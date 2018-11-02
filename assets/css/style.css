@@ -7,37 +7,46 @@
  clear: both;
 }
 
-body{
-    background-color: black;
+.group {
+    clear: both;
+    *zoom: 1;
 }
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 header {
     background-color: white;
     width: 100%;
     height: auto;
-    /* position: fixed; */
 }
 
-.header-container {
-    /* margin: 0 150px; */
+p {
+    margin: 5px;
+    line-height: 1.25;
+    font-size: 18px;
 }
 
 #headerName{
-    /* display: inline-block; */
-    background-color: teal;
+    background-color: slategray;
     color: white;
     width: auto;
     position: relative;
     margin-left: 150px;
     float: left;
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
 #navBar{
-    background-color: black;
     margin-right: 215px;
-    margin-top: 50px;
+    margin-top: 30px;
+}
 
+hr{
+    border-width: 1px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -48,49 +57,105 @@ li {
     float: right;
     display: inline-block;
     margin: 0 10px;
+    color: slategrey;
   }
 
 textarea {
     width: 95%;
+    margin: 0 0 0 5px;
   }
 
 input{
     width: 95%;
+    margin: 0 0 0 5px;
   }
-  
-.group {
- clear: both;
- *zoom: 1;
-}
 
-.footer {
-    text-align: center;
-    background: darkgray;
-    padding: 20px 0 0 0;
-    border-top: 5px solid teal;
-    /* position: fixed; */
-    bottom: 0px;
-    width: 100%;
-}
+label {
+    margin: 0 0 0 5px;
+  }
 
-
-.main{
-    color: teal;
-
+button{
+    margin: 5px 0 0 5px;
 }
 
 .wrapper{
-    background-color: beige;
+    background-color: white;
     width: 960px;
     margin: 20px 150px;
-    height: 500px;
+    height: 800px;
     border-width: 5px;
-    
 }
 
-
+.main{
+    margin: 5px 5px;
+    color: slategrey;
+}
 
 #bioPic {
     float: left;
     margin: 10px;
+    height: 300px;
+    border: 2px solid;
+    border-color: slategrey;
 }
+
+.footer {
+    text-align: center;
+    background:white;
+    padding: 20px 0 0 0;
+    border-top: 5px solid slategrey;
+    bottom: 0px;
+    width: 100%;
+}
+
+.row {
+    margin: 20px 60px;
+}
+
+.container {
+    position: relative;
+}
+
+#text-block-one {
+    position: absolute;
+    bottom: 15px;
+    background-color: slategray;
+    color: white;
+    padding-left: 61px;
+    padding-right: 61px;
+}
+
+#text-block-two {
+    position: absolute;
+    bottom: 15px;
+    background-color: slategray;
+    color: white;
+    padding-left: 57px;
+    padding-right: 57px;
+}
+
+#text-block-three {
+    position: absolute;
+    bottom: 15px;
+    background-color: slategray;
+    color: white;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+#text-block-four {
+    position: absolute;
+    bottom: 15px;
+    background-color: slategray;
+    color: white;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+img {
+    /* this exists because I have too much white going on and I cant see the end of my images */
+    border: 1px solid slategrey;
+}
+
+
+
