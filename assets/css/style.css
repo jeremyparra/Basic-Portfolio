@@ -61,6 +61,7 @@ li {
   }
 
 textarea {
+    height: 300px;
     width: 95%;
     margin: 0 0 0 5px;
   }
@@ -82,7 +83,7 @@ button{
     background-color: white;
     width: 960px;
     margin: 20px 150px;
-    height: 800px;
+    height: 960px;
     border-width: 5px;
 }
 
@@ -148,13 +149,51 @@ button{
     bottom: 15px;
     background-color: slategray;
     color: white;
-    padding-left: 53px;
-    padding-right: 53px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#text-block-five {
+    position: absolute;
+    bottom: 15px;
+    background-color: slategray;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 img {
     /* this exists because I have too much white going on and I cant see the end of my images */
     border: 1px solid slategrey;
+}
+
+.grid-container {
+  display: grid;
+  height: 80%;
+  grid-template-areas: "img1 img2 . . . ." "img3 img4 . . . ." "img5 . . . . .";
+}
+
+.img1 { 
+    grid-area: img1; 
+    margin-left: 50px;
+}
+
+.img2 { 
+    grid-area: img2; 
+}
+
+.img3 { 
+    grid-area: img3; 
+    margin-left: 50px;
+}
+
+.img4 { 
+    grid-area: img4; 
+}
+
+.img5 { 
+    grid-area: img5;
+    margin-left: 50px; 
 }
 
 
